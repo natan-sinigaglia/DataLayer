@@ -18,7 +18,7 @@
               <Choice Kind="InterfaceTypeFlag" Name="I1DDataLayerDrawer" />
             </TypeReference>
           </p:Interfaces>
-          <Patch Id="IeeCIcD8ORlNZQ4VSSpKyf" IsGeneric="true">
+          <Patch Id="IeeCIcD8ORlNZQ4VSSpKyf">
             <Canvas Id="RabCn73WWX7LaeEAtz14Se" CanvasType="Group">
               <Node Bounds="244,295,68,26" Id="IocfVsN6nJ3M9DB553B8Q8">
                 <p:NodeReference LastCategoryFullName="DataLayer.1D.PointShape" LastSymbolSource="DataLayer.vl">
@@ -1003,11 +1003,6 @@
         <Canvas Id="F9Kj6si850INYQpw1mccjW" CanvasType="Group" />
         <Patch Id="Uw0XAOa7QGNMPMipwBrCLP" Name="Create" />
         <Patch Id="U5hc5duZV2nNMXhh0q1UwC" Name="Update" />
-        <!--
-
-    ************************  ************************
-
--->
         <ProcessDefinition Id="IZPqeImpbqbLZpsVOZ3iTQ">
           <Fragment Id="UHLNM8JeolQMesLXNp4jtb" Patch="Uw0XAOa7QGNMPMipwBrCLP" Enabled="true" />
           <Fragment Id="TPbwkcCcCvdLNuGCFksNBu" Patch="U5hc5duZV2nNMXhh0q1UwC" Enabled="true" />
