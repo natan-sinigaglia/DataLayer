@@ -2,7 +2,7 @@
 <Document xmlns:p="property" Id="RSgYlJsyvVgQW6LSv8HxxG" LanguageVersion="2020.1.7.184" Version="0.128">
   <NugetDependency Id="K1G4DY9VLdyMFFUWkgHfdz" Location="VL.CoreLib" Version="2020.1.7" />
   <Patch Id="Mazh5Qxh5ruLxR3Ywpp0Sv">
-    <Canvas Id="RAkAb3XVkZAM1qGqxLELwG" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <Canvas Id="RAkAb3XVkZAM1qGqxLELwG" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
 
     ************************ Application ************************
@@ -129,25 +129,17 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="499,570,117,19" Id="IYheeLSJU1pMGgmJt8duvw">
-            <p:NodeReference LastCategoryFullName="DataLayer.Core.Background" LastSymbolSource="DataLayer.Core.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="ConstantBackgroundT" />
-            </p:NodeReference>
-            <Pin Id="Fjm3ST1AS2CNZh2de7XrzM" Name="Input" Kind="InputPin" />
-            <Pin Id="KqYpFktovDHNcWBjsAkmPn" Name="Output" Kind="StateOutputPin" />
-          </Node>
           <Node Bounds="468,646,69,26" Id="NGuZNCPghV3LmDO7Poti23">
-            <p:NodeReference LastCategoryFullName="DataLayer.1D.I1DDataLayerT" LastSymbolSource="DataLayer.Core.vl">
+            <p:NodeReference>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="SampleT" />
-              <CategoryReference Kind="InterfaceTypeFlag" Name="I1DDataLayerT" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="Sample" />
+              <CategoryReference Kind="InterfaceTypeFlag" Name="I1DDataLayer" NeedsToBeDirectParent="true" />
             </p:NodeReference>
             <Pin Id="DR520aMOPQiQUuYhnK7Q1e" Name="Input" Kind="StateInputPin" />
-            <Pin Id="HnW1SIf6XkRLgsxsyqNUGp" Name="Background Function T" Kind="InputPin" />
+            <Pin Id="HnW1SIf6XkRLgsxsyqNUGp" Name="Background" Kind="InputPin" />
             <Pin Id="UFSSiyxNBJsM2Rt7xyZMKf" Name="Sampling Position" Kind="InputPin" />
             <Pin Id="DZuiHBr8mmTN4phmifnqCl" Name="Output" Kind="StateOutputPin" />
-            <Pin Id="UBcOfCayGr7Ma7UEaGEysm" Name="Value T" Kind="OutputPin" />
+            <Pin Id="UBcOfCayGr7Ma7UEaGEysm" Name="Value" Kind="OutputPin" />
           </Node>
           <Node Bounds="59,277,39,19" Id="H3oPDGIgCqTL5tkQXt9DWd">
             <p:NodeReference LastCategoryFullName="DataLayer.Core.1D" LastSymbolSource="DataLayer.Core.vl">
@@ -445,24 +437,16 @@
             <Pin Id="F3duqFYglNrMnKUci35o6i" Name="Layer" Kind="OutputPin" />
           </Node>
           <Node Bounds="1551,742,69,26" Id="K8AFQcTTed3PXw6sIF8OG3">
-            <p:NodeReference LastCategoryFullName="DataLayer.Core.2D.I2DDataLayerT" LastSymbolSource="DataLayer.Core.vl">
+            <p:NodeReference>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="SampleT" />
-              <CategoryReference Kind="InterfaceTypeFlag" Name="I2DDataLayerT" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="Sample" />
+              <CategoryReference Kind="InterfaceTypeFlag" Name="I2DDataLayer" NeedsToBeDirectParent="true" />
             </p:NodeReference>
             <Pin Id="LNX5tLAJbkRNL5LBpkLwMc" Name="Input" Kind="StateInputPin" />
-            <Pin Id="BlpbZEdzuhVMlC5Ez7ed2i" Name="Background Function T" Kind="InputPin" />
+            <Pin Id="U8CajVuaR1EPikqxOFrFbp" Name="Background" Kind="InputPin" />
             <Pin Id="T4GCLvWksvYP43cVU6LRSp" Name="Sampling Position" Kind="InputPin" />
             <Pin Id="KJ4GZADN6aTPFueQPwSTBU" Name="Output" Kind="StateOutputPin" />
-            <Pin Id="QOrFCGjua9aN2LoO7QejPe" Name="Value T" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="1616,667,117,19" Id="M1a92e28rgaQdcQdILI3nG">
-            <p:NodeReference LastCategoryFullName="DataLayer.Core.Background" LastSymbolSource="DataLayer.Core.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="ConstantBackgroundT" />
-            </p:NodeReference>
-            <Pin Id="JmA2pjUS3w3LjYadrO65xb" Name="Input" Kind="InputPin" />
-            <Pin Id="DVaACNerEPrOnb01XHRNZN" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="BWswSszRS3JP5DxiGIwcZ5" Name="Value" Kind="OutputPin" />
           </Node>
           <Node Bounds="829,1279,44,19" Id="JPGmkOPTVaOOWSpyVhmGoG">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
@@ -503,7 +487,7 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="CHOsTVXVbDzQXbfrhkrJKy" Comment="Value T" Bounds="1560,816,120,53" ShowValueBox="true" isIOBox="true">
+          <Pad Id="CHOsTVXVbDzQXbfrhkrJKy" Comment="Value T" Bounds="1665,815,120,53" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -602,7 +586,6 @@
         <Link Id="JyNTWaqr4J2NuAwM387Rj9" Ids="A1daYHcMfNtM6SIhdCOUEU,HWyeQQt4ZP1K9eFBIeLBZY" />
         <Link Id="NgRmCyl9vYNOt1eOROEbut" Ids="ApEK0hgBpLoLKyJbFuq60a,Mx3IqbBMzXWMoUBEEYNMz1" />
         <Link Id="T3ZFryYoxZyMyqb4KONsB6" Ids="GM6SjqxUGynOdjG1pLV1mp,UFSSiyxNBJsM2Rt7xyZMKf" />
-        <Link Id="KkbSz4Qkl6GP5sHMcBcR13" Ids="KqYpFktovDHNcWBjsAkmPn,HnW1SIf6XkRLgsxsyqNUGp" />
         <Link Id="MEMSvADlmgkL7RdAUsBrJ1" Ids="VKURuVQnWXuOLSuRDyTwVN,EeMigV0b64JOl1DoAlQtJI" />
         <Link Id="ANhrKdiF9ECP71D1aNoKNl" Ids="GM6SjqxUGynOdjG1pLV1mp,Co8d9349bedL7LfnWSCkN6" />
         <Link Id="IxCV9WHjly5LaixLCVr6db" Ids="LtxP1WhHUt7PRajDuFrAQB,M8fArSnttAPLlpVIKhGTah" />
@@ -628,7 +611,6 @@
         <Link Id="ArWTpUW8dQ6LezjaDbZA38" Ids="JnRfaPfrso1OXCJ6XulCQY,F7FjZs5vCguPLFsuK1gnJr" />
         <Link Id="HDWzNU4zcf1Nx6iQJom0iW" Ids="NUrcrVG2NFNOVDZojn2a4W,M6ImdllyQbjM6IYukBUVG7" />
         <Link Id="NLAkYLHIcEOLerkQM7Drck" Ids="UBcOfCayGr7Ma7UEaGEysm,GSHNMmX2Vi6OxqjoAdX54X" />
-        <Link Id="Sdm2jRmUWnYNgG2i1lAR6l" Ids="TQgYLbOARgLN6VyMdHLQPl,Fjm3ST1AS2CNZh2de7XrzM" />
         <Link Id="Fe0b3QpYRxbM83KGNGL9Br" Ids="Cbo6tAwVWibOO6QYQuEDQZ,L5NSkkZK0byQO8RVz2x4VY" />
         <Link Id="DZ6YYmXDHz2M4DKwrxiIuF" Ids="G2xKc9sXkNiNwLUw3R6TVm,NiUaq9xIPSALmdWDYlhm3C" />
         <Link Id="IICp7YNJh1gOO5a737ZMdv" Ids="EFTOENScV7EQWuVUPqF1oE,CkPWFiFZOOlLVe3hgb3aQl" />
@@ -641,7 +623,6 @@
         <Link Id="NvyAacFJPISPeq3kIYjAjT" Ids="N6PlnzMauHUMFA2JG61THg,JH0OsRnyx4wLo5Wo8LeaL9" />
         <Link Id="JrHuS4VVR1NPGnIs6dIJK4" Ids="BSygt77JPPoOVsj8OuHb2h,BmElzvpzZOtMDTh8zIoepL" />
         <Link Id="JANTa0GmiETO3A0yuH3oCt" Ids="BSygt77JPPoOVsj8OuHb2h,LNX5tLAJbkRNL5LBpkLwMc" />
-        <Link Id="BizpJDijX74P7XgvRsDf5Q" Ids="DVaACNerEPrOnb01XHRNZN,BlpbZEdzuhVMlC5Ez7ed2i" />
         <Link Id="Jod7X0s8tgsLDeKj7Y3KHu" Ids="TLVeMUq8mKGMi9KD7zUdUV,T4GCLvWksvYP43cVU6LRSp" />
         <Link Id="PejZhKN9eBwMJGpu1mFca0" Ids="UQ4LrBsWB6BNMGumMIrh9k,Top6l3K1Qf1NW4xyTgEkJE" />
         <Link Id="KPPWlV5DurGQNteue3S9ky" Ids="AsR3pyigTmuPqpvXADQl25,F4Tj2gYxTAJLNWUtvpHb9p" />
@@ -649,8 +630,6 @@
         <Link Id="IfjBpswo63POv7UZr2Ypay" Ids="Qy5ZqsyufnsNcPNdBMnZiS,QfesWUaaU2SM8IrOhoVS84" />
         <Link Id="LsNgUsvMV9ZMLyjo7QqrML" Ids="T1hLC5xX3A2PoM1wJgrDHr,RoIIWBuOlchMwCsZy0VpbS" />
         <Link Id="SEg2jMRwi5lPjB64uQBIVD" Ids="IqC1vrmUYd8Nmh34GEYgK8,LJy7SC34qqFNRHmsY7tdfu" />
-        <Link Id="C0YXa5KKGIUMkHfGRzNhI7" Ids="QOrFCGjua9aN2LoO7QejPe,CHOsTVXVbDzQXbfrhkrJKy" />
-        <Link Id="CVbCjeZAY7UNHXdh3JvItF" Ids="LnhR22DaZqYNKP4cP5Ksfz,JmA2pjUS3w3LjYadrO65xb" />
         <Link Id="MuJhepVoKJENUN2PaoPzQm" Ids="EtAyePk34yeLI6phsMl8XS,BAw270otMwcNIt6qYfXHSZ" />
         <Link Id="ABg9QFIrhkGPXiEJ8aDcCc" Ids="BDAQ9NMelukOUM0xwZ7sIy,JBm5ZacEvFxNcqXScCxb0M" />
         <Link Id="Nr2tHXS1qkPOErVF9HJooo" Ids="O2roKUMyJQSOdv0auUtGVG,IvrK6OtEjNeP81hpHSnJVn" />
@@ -660,8 +639,11 @@
         <Link Id="JSemdl7hA1tNdIdfT7lDVN" Ids="TLVeMUq8mKGMi9KD7zUdUV,H7pswczBN3WNSXLgPOxDZh" />
         <Link Id="CxT4erhkPlAOBpDMeFndO9" Ids="SJfRTGAymsVPV61AHfTs8g,D8SIOmxcFqaNhlhguk0oPv" />
         <Link Id="DOqDSbZ0FKzLSHZYc8jrHW" Ids="GVNgjQXwilfPJPnxpZCKDf,OoYlmeH95r0LeVO56uXd4U" />
-        <Link Id="I6HCYAq5vsKOGMnfNv5pex" Ids="QOrFCGjua9aN2LoO7QejPe,DiatGxO52atO952AgOTDUz" />
         <Link Id="SrTvTQDATjYMKrKO4Fw8dw" Ids="GtnD1u1EU9BLaYvRZgT9KV,G9YCqOp7jZ9OPpAoYbhqA9" />
+        <Link Id="RzXgYazjbQpLa5uJ6yJZak" Ids="TQgYLbOARgLN6VyMdHLQPl,HnW1SIf6XkRLgsxsyqNUGp" />
+        <Link Id="TPEFNeKihNROOwQmjhRPQw" Ids="LnhR22DaZqYNKP4cP5Ksfz,U8CajVuaR1EPikqxOFrFbp" />
+        <Link Id="Ng9SnsIOoBeN6g5i5BXn8F" Ids="BWswSszRS3JP5DxiGIwcZ5,CHOsTVXVbDzQXbfrhkrJKy" />
+        <Link Id="BYrAxwLH7fdPM25v27EbR3" Ids="BWswSszRS3JP5DxiGIwcZ5,DiatGxO52atO952AgOTDUz" />
       </Patch>
     </Node>
   </Patch>
