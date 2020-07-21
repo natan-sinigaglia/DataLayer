@@ -40,7 +40,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="Kr4hdeC5H00LYJ6zaFK8eY" Name="Bounds" Kind="InputPin" DefaultValue="1289, 137, 535, 298">
+            <Pin Id="Kr4hdeC5H00LYJ6zaFK8eY" Name="Bounds" Kind="InputPin" DefaultValue="1110, 205, 789, 374">
               <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -77,7 +77,7 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="MBCabrBuEFELzdTTOLbp6r" Comment="From" Bounds="214,163,35,15" ShowValueBox="true" isIOBox="true" Value="-0.51">
+          <Pad Id="MBCabrBuEFELzdTTOLbp6r" Comment="From" Bounds="214,163,35,15" ShowValueBox="true" isIOBox="true" Value="-0.18">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -255,16 +255,20 @@
               <Choice Kind="ProcessAppFlag" Name="Point (1DDataLayer)" />
             </p:NodeReference>
             <Pin Id="FysAaPAH91RNYAWWwTzDpl" Name="Data" Kind="InputPin" />
-            <Pin Id="CpFqkKrvl4sLShXiST2Ef4" Name="Alpha" Kind="InputPin" />
+            <Pin Id="CpFqkKrvl4sLShXiST2Ef4" Name="Alpha" Kind="InputPin" DefaultValue="0.45">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Float32" />
+              </p:TypeAnnotation>
+            </Pin>
             <Pin Id="G3XylWmgkDbMcoqRwxxWgv" Name="Position" Kind="InputPin" />
             <Pin Id="Cl2QRGzZNhqN4LABnDMqTa" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="B8tYJruWcXuN8yUuHslGwD" Comment="Data" Bounds="690,81,35,15" ShowValueBox="true" isIOBox="true" Value="0.34">
+          <Pad Id="B8tYJruWcXuN8yUuHslGwD" Comment="Data" Bounds="690,81,35,15" ShowValueBox="true" isIOBox="true" Value="0.27">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="GJFjDS7Ga7XLCIVyaRkD07" Comment="Position" Bounds="724,164,35,15" ShowValueBox="true" isIOBox="true" Value="-1.63">
+          <Pad Id="GJFjDS7Ga7XLCIVyaRkD07" Comment="Position" Bounds="724,164,35,15" ShowValueBox="true" isIOBox="true" Value="-0.28">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
