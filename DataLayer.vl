@@ -665,6 +665,11 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
+          <Pad Id="Cs6s2gwAXvCQN3kv4jyeZ8" Comment="Color" Bounds="996,971,136,15" ShowValueBox="true" isIOBox="true" Value="0.6200003, 0.6200003, 0.6200003, 1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="RGBA" />
+            </p:TypeAnnotation>
+          </Pad>
         </Canvas>
         <Patch Id="LbSvGm0NCyILgw2ROmpv2R" Name="Create" />
         <Patch Id="FPrUmjIrGo7MJzMQHcbefO" Name="Update" />
@@ -746,6 +751,7 @@
         <Link Id="SW89AXLH8VrOZvgx4YxIxP" Ids="K8AZTbDx1tJOS5sn5MG73n,NMUhPXiyYpFPP8N4rRn3GL" IsHidden="true" />
         <Link Id="SHo5UgAHovBQYp0vKLWVqC" Ids="UVcveeLqiEqOtXQeUIqMdp,K8AZTbDx1tJOS5sn5MG73n" />
         <Link Id="Vk1IF1WriMzPqxJK4SoyeZ" Ids="FzRWow1ORlvPoodkq7qzAW,UzmkCvmQR79PEY3Dui7eHC" />
+        <Link Id="RQS8CPncL5iP4wQqE5raJi" Ids="Cs6s2gwAXvCQN3kv4jyeZ8,GJ0uQ8Ka0ltMJhIm6vJhIH" />
       </Patch>
     </Node>
   </Patch>
