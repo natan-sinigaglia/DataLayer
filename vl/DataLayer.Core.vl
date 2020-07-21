@@ -851,10 +851,10 @@
         <Canvas Id="EsMrAtJ6ALBOpYAcYWnbR5" Name="Sampling" Position="101,578">
           <!--
 
-    ************************ AppendLeafes ************************
+    ************************ AppendLeafs ************************
 
 -->
-          <Node Name="AppendLeafes" Bounds="530,78,684,361" Id="FS41ML3i55ONVQKi5IcFjN">
+          <Node Name="AppendLeafs" Bounds="530,78,684,361" Id="FS41ML3i55ONVQKi5IcFjN">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
               <Choice Kind="OperationDefinition" Name="Operation" />
             </p:NodeReference>
@@ -901,7 +901,7 @@
                       <Node Bounds="917,346,80,19" Id="PB2SuDAD5u8LdkFuwtziqR">
                         <p:NodeReference LastCategoryFullName="DataLayer.Core.1D.Sampling" LastSymbolSource="DataLayer.Core.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                          <Choice Kind="OperationCallFlag" Name="AppendLeafes" />
+                          <Choice Kind="OperationCallFlag" Name="AppendLeafs" />
                         </p:NodeReference>
                         <Pin Id="BjL9GolAMsZPDTQz2pgigU" Name="SpreadBuilder" Kind="InputPin" />
                         <Pin Id="IqcjrTtTUL9PutUnRBweJp" Name="Input" Kind="InputPin" />
@@ -1643,7 +1643,7 @@
                     <Node Bounds="600,558,80,19" Id="AwTjAl9vlOcPuaFmSFAvNq">
                       <p:NodeReference LastCategoryFullName="DataLayer.Core.1D.Sampling" LastSymbolSource="DataLayer.Core.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                        <Choice Kind="OperationCallFlag" Name="AppendLeafes" />
+                        <Choice Kind="OperationCallFlag" Name="AppendLeafs" />
                       </p:NodeReference>
                       <Pin Id="LBHFXM1GPVcNYCHVemBOwe" Name="SpreadBuilder" Kind="InputPin" />
                       <Pin Id="FSbVh3Xi6AhMmrmSACQh25" Name="Input" Kind="InputPin" />
@@ -2141,36 +2141,19 @@
                 </Node>
                 <ControlPoint Id="P42DeVzs1RmOHmJ1lGgBq0" Bounds="128,683" />
               </Canvas>
-              <Patch Id="N7B7JycKzrhPayFrKluphE" Name="Create" />
               <ProcessDefinition Id="PxHRDhlYugbPcIXQh7ipz3" HasStateOut="true">
                 <Fragment Id="TTnSxQOsNV9NvHO1iA88bw" Patch="N7B7JycKzrhPayFrKluphE" Enabled="true" />
                 <Fragment Id="OahbsCmsGYYMQrsPkA6AMd" Patch="Kf8rwlEUeeGQKDQlcrW589" Enabled="true" />
               </ProcessDefinition>
-              <Patch Id="Kf8rwlEUeeGQKDQlcrW589" Name="Update" ManuallySortedPins="true">
-                <Pin Id="HZWD1qqB8JQOtJdvYeIIAl" Name="Input" Kind="InputPin">
-                  <p:TypeAnnotation>
-                    <Choice Kind="TypeFlag" Name="I1DDataLayer" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="SXyBTTjAf0pNd3eIsEEhKE" Name="Sample Position" Kind="InputPin">
-                  <p:TypeAnnotation>
-                    <Choice Kind="TypeFlag" Name="Float32" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="OFPmn8pnpEPMOFgOaULegB" Name="Value" Kind="OutputPin" Bounds="502,972" />
-                <Pin Id="M4zocJacfhoP4w8CaefP7m" Name="Background" Kind="InputPin" />
-              </Patch>
               <Link Id="QFvdbprviemOQPJezkKH3X" Ids="FgSn6DLb7cfOHx6Nsz5lfy,OFPmn8pnpEPMOFgOaULegB" IsHidden="true" />
               <Link Id="SPfhW9GHTSUOtm8ZLKsU5Y" Ids="OxcomhPTk1qOuSxw8dXtjT,OvRUcoPzVrzPxlZ8KmudCx" />
-              <Link Id="AbI4nvYTos0NEPayFG7IzM" Ids="SXyBTTjAf0pNd3eIsEEhKE,CqTSWU9pjNVMmKUlm0xBTe" IsHidden="true" />
-              <Link Id="KPDHgXAkK4IO3Us2ImVouK" Ids="SXyBTTjAf0pNd3eIsEEhKE,OQn4O4AnA1mMQhW568rKJo" IsHidden="true" />
+              <Link Id="AbI4nvYTos0NEPayFG7IzM" Ids="UF2OLcVt3RiOH9KQdZIvzG,CqTSWU9pjNVMmKUlm0xBTe" IsHidden="true" />
               <Link Id="HfJ2tvmUOH4OkoMhtCLzmO" Ids="OQn4O4AnA1mMQhW568rKJo,U5rhbCJkrqEL4e5YGPZiL1" />
               <Link Id="OANVjcMhJXeLxoIXKm9aDa" Ids="TFRGWSzfGbzP6MYcbK9oq5,TbZWh7WmLtlMnjjsM641ou" IsFeedback="true" />
               <Link Id="RytCiyjUNFPLJXIxYUwQEA" Ids="TbZWh7WmLtlMnjjsM641ou,FgSn6DLb7cfOHx6Nsz5lfy" />
               <Link Id="AllTL6YY14hM4zzHX169RF" Ids="EEnAeMIvDqHLUY5YBJqnh7,KBUF0SbcqjWMMCUdaF8PSL" />
               <Link Id="LCwzuBwW6EyMHMaJGVJuZy" Ids="E9Uo1wakiQnPBQ2MeRzcsB,OmOSgryQ2E3M4bTKkqGtux" />
               <Link Id="BLX20PeSI8wQE9uWYXKeIE" Ids="DPQmWWT79A7Pc9A3eHmBwX,IBkPfgFCPWwPfVCMRa0B36" />
-              <Link Id="HgW3ALDsvXNK9fLG4TWZ2Q" Ids="SXyBTTjAf0pNd3eIsEEhKE,FR8y0nE7EPKPJkxKZrScm3" IsHidden="true" />
               <Link Id="AP9Hsb5f9nxNLmyGdFiIkZ" Ids="FR8y0nE7EPKPJkxKZrScm3,RvqHa4WHL9nLUZ9ghgNFmN" />
               <Link Id="CpzviO5rhmXOLsYzpgJYjM" Ids="VELNn2cYqyAPPGCOUBXG3n,HsEwVX1RzaCPnHwPecnBDx" />
               <Link Id="HG0CvFjCL9bMtFuj4o78E1" Ids="OXBhmB1v1TbOB7tiBwAmxa,Sb5jrYUnqJtMTj0It0nMWB" />
@@ -2210,7 +2193,6 @@
               <Link Id="PH3VTh2vZw0PIC8z19zKyG" Ids="LAk117zUfHqPLZgqWx36nN,FufRdWt8NlmLtUcwxKt1Vg" />
               <Link Id="KjtUfQIkZgAMOLn5kPeEp3" Ids="LUysltXg4y0Ng2LIU9pYFW,RCP08RN9ZhhQQSvi1zlWIN" />
               <Link Id="M5iNnb94HRaQVnu6Fgu8vU" Ids="EQtiMZjlV53N2ldzAwQeNd,UzBVnXzNSwxQLH7qvH3yhb" />
-              <Link Id="U5vVHmdjkfEQLL9Bg0Q3u9" Ids="SXyBTTjAf0pNd3eIsEEhKE,P42DeVzs1RmOHmJ1lGgBq0" IsHidden="true" />
               <Link Id="Ac7IobNjarlOlKvp2bkOkZ" Ids="OQn4O4AnA1mMQhW568rKJo,KkFjQMFY0HxOWARS9xkoqq" />
               <Link Id="QGARogG4m4BN7pM59fxxZi" Ids="JVf9k30aPlLMLiVW7iexhY,Gp5ybwUXRoEOU8AE2drl0H" />
               <Link Id="F0hU2mIINphNHW3Qg7hqsK" Ids="Csy4OpUI457LQeJrHEG1d2,JLZLI8bRv7ZLF7HKn8hhYE" />
@@ -2231,6 +2213,24 @@
               <Link Id="KoTDcwS3AWQOZGXTydF7g6" Ids="DGrPF6tR3bdMw7Lv1p1Ie4,SDs2TuWYxHwORpWHA3dwrX" />
               <Link Id="BOtTuTJRQN3PJknG9iYOY8" Ids="DGrPF6tR3bdMw7Lv1p1Ie4,HJspiyJjOL1OXq8rEi44Ib" />
               <Link Id="KKkFuLFPe3FNSAMOyKgRVI" Ids="DGrPF6tR3bdMw7Lv1p1Ie4,HPzAUl230WhLw4iNZIDiTC" />
+              <Patch Id="N7B7JycKzrhPayFrKluphE" Name="Create" />
+              <Patch Id="Kf8rwlEUeeGQKDQlcrW589" Name="Update" ManuallySortedPins="true">
+                <Pin Id="HZWD1qqB8JQOtJdvYeIIAl" Name="Input" Kind="InputPin">
+                  <p:TypeAnnotation>
+                    <Choice Kind="TypeFlag" Name="I1DDataLayer" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="OFPmn8pnpEPMOFgOaULegB" Name="Value" Kind="OutputPin" Bounds="502,972" />
+                <Pin Id="M4zocJacfhoP4w8CaefP7m" Name="Background" Kind="InputPin" />
+                <Pin Id="UF2OLcVt3RiOH9KQdZIvzG" Name="Sample Position" Kind="InputPin">
+                  <p:TypeAnnotation>
+                    <Choice Kind="TypeFlag" Name="Float32" />
+                  </p:TypeAnnotation>
+                </Pin>
+              </Patch>
+              <Link Id="RjqtLtFmgc5MPHZLu47n5U" Ids="UF2OLcVt3RiOH9KQdZIvzG,OQn4O4AnA1mMQhW568rKJo" IsHidden="true" />
+              <Link Id="E39OHnvIgNZPP7diAfQcOV" Ids="UF2OLcVt3RiOH9KQdZIvzG,P42DeVzs1RmOHmJ1lGgBq0" IsHidden="true" />
+              <Link Id="PsgA4QYrkzvPQPwII8f9l7" Ids="UF2OLcVt3RiOH9KQdZIvzG,FR8y0nE7EPKPJkxKZrScm3" IsHidden="true" />
             </Patch>
           </Node>
           <!--

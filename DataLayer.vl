@@ -40,7 +40,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="Kr4hdeC5H00LYJ6zaFK8eY" Name="Bounds" Kind="InputPin" DefaultValue="1110, 205, 789, 374">
+            <Pin Id="Kr4hdeC5H00LYJ6zaFK8eY" Name="Bounds" Kind="InputPin" DefaultValue="1036, 10, 789, 374">
               <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -466,9 +466,9 @@
               <Choice Kind="ProcessAppFlag" Name="Sampler (BottomUp Simple)" />
             </p:NodeReference>
             <Pin Id="FEJAJuCtLo3OsNxBezLYxV" Name="Input" Kind="InputPin" />
-            <Pin Id="S9F58d1OAW1LqRnCKwwjSd" Name="Sample Position" Kind="InputPin" />
             <Pin Id="BiMVIgHfakxNfcBrPEPbqh" Name="Background" Kind="InputPin" />
             <Pin Id="U6Z1CXMNkFOLIPtU8WmL9J" Name="Value" Kind="OutputPin" />
+            <Pin Id="S9F58d1OAW1LqRnCKwwjSd" Name="Sample Position" Kind="InputPin" />
           </Node>
           <Node Bounds="226,659,45,19" Id="FgoDHR69Am9N4msqtbXnHt">
             <p:NodeReference LastCategoryFullName="DataLayer.Core.1D.Sampling" LastSymbolSource="DataLayer.Core.vl">
