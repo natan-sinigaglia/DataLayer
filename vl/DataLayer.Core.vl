@@ -1732,7 +1732,7 @@
             <Patch Id="VvfSvV0DrJmN8NaJ7998I0" IsGeneric="true">
               <Canvas Id="OdKYhhxHXUVNK4nrGbLsco" CanvasType="Group">
                 <ControlPoint Id="FgSn6DLb7cfOHx6Nsz5lfy" Bounds="704,1258" />
-                <Node Bounds="409,294,37,19" Id="Oyt1wxs4oBFPHj197JFYIK">
+                <Node Bounds="282,297,37,19" Id="Oyt1wxs4oBFPHj197JFYIK">
                   <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="NOT" />
@@ -2238,7 +2238,7 @@
     ************************ BlendAll ************************
 
 -->
-          <Node Name="BlendAll" Bounds="18,764,360,194" Id="MOEH3GL2tIePahyjPHyaKK">
+          <Node Name="BlendAll" Bounds="18,764,361,194" Id="MOEH3GL2tIePahyjPHyaKK">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
               <Choice Kind="OperationDefinition" Name="Operation" />
             </p:NodeReference>
@@ -2283,17 +2283,17 @@
               </Node>
               <Link Id="JuEuBybmICmOV0RPTsC17h" Ids="IxyYKeHdzyYQRiZeLrHf31,NUxg2ojRMD6NINbRrXWXl9" />
               <Link Id="I42buZ7YmxJNIWjg79tHI7" Ids="TfCKorz4It0OV5ApK3HYFJ,IxyYKeHdzyYQRiZeLrHf31" />
-              <ControlPoint Id="TfCKorz4It0OV5ApK3HYFJ" Bounds="131,786" />
+              <ControlPoint Id="TfCKorz4It0OV5ApK3HYFJ" Bounds="132,782" />
               <Pin Id="OwrkG36r8i1Pbwh9FeWrBA" Name="Input" Kind="InputPin" Bounds="131,786" />
               <Link Id="J01e7k0nBMQMbRlZ0VrVAq" Ids="OwrkG36r8i1Pbwh9FeWrBA,TfCKorz4It0OV5ApK3HYFJ" IsHidden="true" />
               <Link Id="Q8BIAMwAz1kOaMN60kmPno" Ids="DrV84zHDDqRPVgSerVAPEj,FQTvlxSDeEpNKxcZ10YxDU" IsFeedback="true" />
               <Link Id="AaC2P0ASgAbL7bChBj5Whp" Ids="DrV84zHDDqRPVgSerVAPEj,FufonrJDEJ3NUgBItubTnB" />
               <Link Id="GDWvEtjovTgLTaLuacUkZj" Ids="AVHiNaghsv2NktfooXRCUZ,DrV84zHDDqRPVgSerVAPEj" />
-              <ControlPoint Id="AVHiNaghsv2NktfooXRCUZ" Bounds="185,783" />
+              <ControlPoint Id="AVHiNaghsv2NktfooXRCUZ" Bounds="186,782" />
               <Pin Id="LJixFT5aFdUL8aAabYC0M6" Name="Background" Kind="InputPin" Bounds="185,783" />
               <Link Id="NwSGaWuzLQ4LbLm9ifjP02" Ids="LJixFT5aFdUL8aAabYC0M6,AVHiNaghsv2NktfooXRCUZ" IsHidden="true" />
               <Link Id="HoullPD3M4oOHpCv5hulWU" Ids="ImJ48FyJ9IyLGNIfecOCeM,BPwd63s82zRN5QC4PWAZBT" />
-              <ControlPoint Id="ImJ48FyJ9IyLGNIfecOCeM" Bounds="283,782" />
+              <ControlPoint Id="ImJ48FyJ9IyLGNIfecOCeM" Bounds="284,782" />
               <Pin Id="TdLvcALDyehNFcU8o1WyYx" Name="Sample Position" Kind="InputPin" Bounds="283,782" />
               <Link Id="IjkBdBOfUnAQam00xT1XcO" Ids="TdLvcALDyehNFcU8o1WyYx,ImJ48FyJ9IyLGNIfecOCeM" IsHidden="true" />
               <Link Id="RSqSijQRgyaMC4dB5mL2bH" Ids="RUYZZUPtz4lNJ7PF4wTuk6,FQTvlxSDeEpNKxcZ10YxDU" />
