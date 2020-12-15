@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="FF3ZFE4BPmkNElXUc4C0yh" LanguageVersion="2020.3.0.42" Version="0.128">
-  <NugetDependency Id="GeZyLHn4KnhQYCGpYpoLcL" Location="VL.CoreLib" Version="2020.3.0-0042-g1a9a5c158d" />
+<Document xmlns:p="property" Id="FF3ZFE4BPmkNElXUc4C0yh" LanguageVersion="2020.3.0.102" Version="0.128">
+  <NugetDependency Id="GeZyLHn4KnhQYCGpYpoLcL" Location="VL.CoreLib" Version="2020.3.0-0102-g094033fb54" />
   <Patch Id="FDY8AZuyT46MhBeBGww1Xb">
     <Canvas Id="FV7kUnueAqTMdjxk5lgTcN" CanvasType="FullCategory">
       <Canvas Id="AUHBJ7OvTh4NKRwgHgfEXk" Name="Editors" Position="701,272">
@@ -171,6 +171,7 @@
                 <Pin Id="DYNwffGWROTMy6FkFonklA" Name="Output" Kind="StateOutputPin" />
                 <Pin Id="UWUJqgzJZEINj83yD2qnfi" Name="Stack" Kind="OutputPin" />
               </Node>
+              <Pad Id="AYjX44MuCvPPXjYPrZopup" Bounds="545,305" />
             </Canvas>
             <ProcessDefinition Id="Fia78VsoQn1PNquafv7VK6" IsHidden="true">
               <Fragment Id="NoflOwUZ25lMIL7R2oqnWn" Patch="ChrBe8Ro2M3OZcnmhVZj3K" Enabled="true" />
@@ -188,7 +189,7 @@
             <Link Id="M8mZmpYqOMUM9rT9e4oX5Y" Ids="O61rLwEhvEaMTlE4uVtXc9,F1LlnePZHjELsJQuVLHhMx" IsHidden="true" />
             <Link Id="MgRvpxTsvMzOZHQwCCARC6" Ids="FCldCdc9xBPLQvzVYRZyFZ,CSf8Aygy1ukNZUueeJCyYE" />
             <Link Id="VoUC3Ua6BJCMGrYuoM214B" Ids="SXqw8Gkuh0iO9EDciiyXGv,FCldCdc9xBPLQvzVYRZyFZ" IsHidden="true" />
-            <Link Id="Ry4NkiQTrD1MzR8UCQfDjc" Ids="F1LlnePZHjELsJQuVLHhMx,N12ty391eGbM0dWLt7bzm0" />
+            <Link Id="Ry4NkiQTrD1MzR8UCQfDjc" Ids="F1LlnePZHjELsJQuVLHhMx,AYjX44MuCvPPXjYPrZopup" />
             <Link Id="IEtCKGhnQB4NyWi6nUPL7D" Ids="IVAvm0n0BUdNCiszYQkDnr,PQ5PCkijGjtOkJbIKkxXAl" />
             <Link Id="B9jDKGp7ANqP3kgcNx2L7a" Ids="CSf8Aygy1ukNZUueeJCyYE,L6VNp6CztrfP5otpFq1ljv" />
             <Patch Id="ChrBe8Ro2M3OZcnmhVZj3K" Name="Create" />
@@ -229,7 +230,6 @@
             <Link Id="NbhFiAm484qQELIfakOmo8" Ids="VvdEHrwtUg9LPWIpCKoDsq,D09RpWZAQzjQJgvQavrlZT" />
             <Link Id="T7wv5lHIQTlOvXaooN9bbI" Ids="PB9EL0ihrqTOa1w3h8eKuN,MsW0PwRVI96PXPNsPjTUVN" />
             <Link Id="AMOMFopcY5oPOupOpZ1nTH" Ids="VoPFpqgB6chOPPAgVvf7an,SRVnMEFDcGpL1ANCRYiizn" />
-            <Link Id="L5nVlSO7MbILvzFdKvcioQ" Ids="SRVnMEFDcGpL1ANCRYiizn,I93dKuBDiOrNMZt5xRO8b1" />
             <Patch Id="Ki4kSo4HaZLQMOEzGqIMQp" Name="Commit" ParticipatingElements="MtlvAWTzyt8O4PnkPMsZJx" />
             <Link Id="MGlfvqhxeyuLuCjGDlb9um" Ids="PEnqau0ei8vOBPD0hnZmjW,JaXbn3dfEAGNpG9n4EFJZZ" />
             <Link Id="KVABc9FHEmGLi1XpJ1mHOk" Ids="DOem1Vnly0GMeCIBFPeiGb,PXMfyfevQGFPrb1ZhgigoB" />
@@ -241,6 +241,8 @@
             <Link Id="VBTJLoGC19kNtINM9g7NO5" Ids="A4Lik3bHuxfPk05ztlmpnm,OG4nfrBFjH7M2gDSvdI53G" />
             <Link Id="BLrOmBFDodMOf2gWC7udAZ" Ids="CoWDaEycKu6PIi4h4iZyfx,ALJXHqyjrKnN9X4ZjNPxGL" />
             <Link Id="PE0BUujPsheLSMrnDTJlCX" Ids="UWUJqgzJZEINj83yD2qnfi,Q8L8GsQWRHGMFfrAWur3nA" />
+            <Link Id="ChLg1DJhLj7PWGX8232Okn" Ids="AYjX44MuCvPPXjYPrZopup,N12ty391eGbM0dWLt7bzm0" />
+            <Link Id="Tm9fjCbYYYsOSiRplL7U8s" Ids="VoPFpqgB6chOPPAgVvf7an,I93dKuBDiOrNMZt5xRO8b1" />
           </Patch>
         </Node>
         <!--
@@ -707,7 +709,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="J0sDmXp91PPOnUh5WybCBN" Name="Bounds" Kind="InputPin" DefaultValue="1209, 8, 705, 474">
+            <Pin Id="J0sDmXp91PPOnUh5WybCBN" Name="Bounds" Kind="InputPin" DefaultValue="802, 6, 705, 474">
               <p:TypeAnnotation LastCategoryFullName="System.Windows" LastSymbolSource="VL.CoreLib.Windows.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -1552,8 +1554,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="DVUEAqhf0jlQDs5c0mS4BV" Location="VL.Skia" Version="2020.3.0-0042-g1a9a5c158d" />
+  <NugetDependency Id="DVUEAqhf0jlQDs5c0mS4BV" Location="VL.Skia" Version="2020.3.0-0102-g094033fb54" />
   <DocumentDependency Id="KhrKDnekPzOOUnxUASGgvV" Location="./Shapes.vl" />
-  <NugetDependency Id="GQcMsEmtvU0MvLX6t93BZB" Location="VL.Lang" Version="2020.3.0-0042-g1a9a5c158d" />
-  <NugetDependency Id="NQU64AywhdbL7WgdyFPKFF" Location="VL.CoreLib.Windows" Version="2020.3.0-0042-g1a9a5c158d" />
+  <NugetDependency Id="GQcMsEmtvU0MvLX6t93BZB" Location="VL.Lang" Version="2020.3.0-0102-g094033fb54" />
+  <NugetDependency Id="NQU64AywhdbL7WgdyFPKFF" Location="VL.CoreLib.Windows" Version="2020.3.0-0102-g094033fb54" />
 </Document>
