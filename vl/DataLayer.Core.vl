@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="GCBXXe8UBn4QWjtkG5qVgU" LanguageVersion="2020.1.7.184" Version="0.128">
-  <NugetDependency Id="SQaS5QSei22LnqM3dzheuN" Location="VL.CoreLib" Version="2020.1.7" />
+<Document xmlns:p="property" Id="GCBXXe8UBn4QWjtkG5qVgU" LanguageVersion="2020.3.0.129" Version="0.128">
+  <NugetDependency Id="SQaS5QSei22LnqM3dzheuN" Location="VL.CoreLib" Version="2020.3.0-0129-g9910d9a3ec" />
   <Patch Id="LBwuLW3LQtIPZszl6b1thq">
     <Canvas Id="Um9Xs6wk0iVMVnFnRWUj7F" DefaultCategory="DataLayer.Core" CanvasType="FullCategory">
       <Canvas Id="EjAiUC4MM2gMmAwsZNJJDN" Name="1D" Position="143,369">
@@ -2244,7 +2244,7 @@
             </p:NodeReference>
             <Patch Id="N0cjxlHKBlTQFqVUD3jN1P" IsGeneric="true">
               <Node Bounds="70,808,124,111" Id="IIBc0XPqNBdLRAyHnYsKc6">
-                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                   <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                   <FullNameCategoryReference ID="Primitive" />
@@ -5349,5 +5349,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="IlrvKwVNnDQPP8xQxjQfxX" Location="VL.Skia" Version="2020.1.7" />
+  <NugetDependency Id="IlrvKwVNnDQPP8xQxjQfxX" Location="VL.Skia" Version="2020.3.0-0129-g9910d9a3ec" />
 </Document>
